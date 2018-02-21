@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: #222;
+  color: white;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  color: lightblue;
+}
+
+#router-view {
+  padding: 20px 20px;
+}
+
+.input-container {
+  padding: 20px;
+  color: #CCC;
+}
+
+input {
+  background: none;
+  border: none;
+  padding: 10px;
+  border-bottom: solid 5px;
+  transition: .5s;
+  border-color: #CCC;
+  font-size: 20px;
+  color: white;
+  display: block;
+  box-shadow: none;
+  outline: none;
+}
+
+input:focus {
+  transition: .5s;
+  border-color: white;
+}
+
+.input-container input:focus {
+  color: white;
+  box-shadow: 0 0 20px 0;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.global-alert {
+  background: darkred;
+  padding: 15px;
+}

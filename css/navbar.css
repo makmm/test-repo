@@ -1,0 +1,39 @@
+#router-view {
+  padding-top: 50px;
+  padding-left: 300px;
+}
+
+nav {
+  z-index: 2;
+  background-color: #333;
+  float: left;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  /* padding-left: 12px; */
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  /* border-left: solid 3px transparent; */
+}
+
+nav a:hover {
+  background-color: #333;
+  /* background-color: rgba(45, 45, 45, 0.9) */
+}
+
+.nav-toggler {
+  position: fixed;
+  z-index: 3;
+}
+
+.nav-stuff-container {
+  position: fixed;
+}
