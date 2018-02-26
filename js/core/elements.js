@@ -83,10 +83,6 @@ const label = (...args) => makeElement('label', ...args)
 const nav = (...args) => makeElement('nav', ...args)
 const form = (...args) => makeElement('form', ...args)
 
-// TODO:; MPROBLEMA::: javascript aparentemente si exportas un objeto no lo
-// podes importar estilo 'import {lpm} from lpm' asi que me quiero tirar x
-// la ventana xq juan no me ama
-
 export {appendText, appendArray, append, makeElement,
         a, button, input, div, h1, h3, p, small, label, nav, form}
 
